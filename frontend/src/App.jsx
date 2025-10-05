@@ -4,7 +4,7 @@ import Student from "./components/Student";
 import Lecturer from "./components/Lecturer";
 import PRL from "./components/PRL";
 import PL from "./components/PL";
-import './app.css';
+//import './app.css';
 
 import "./App.css";
 
