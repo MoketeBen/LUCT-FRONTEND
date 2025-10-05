@@ -1,0 +1,47 @@
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* === App Layout === */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  font-size: large;
+
+/* === Headings === */
+.card h4, .card h5 {
+  color:black;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: x-large ;
+
+}  
+  
+}
+.app-header {
+  background: linear-gradient(135deg, #0052cc, #2684ff);
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(238, 9, 9, 0.15);
+}
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  transition: transform 0.2s;
+  background-color: blue;
+  color:aliceblue;
+  
+}
